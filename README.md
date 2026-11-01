@@ -10,6 +10,12 @@ A rebuilt browser and cursor go from the plugin page to a checked floor plan, an
 
 [![The film: a floor plan draws itself inside a ChatGPT conversation](docs/preview.gif)](https://github.com/ChanMeng666/film-archlang-in-chatgpt/releases/latest)
 
+
+
+https://github.com/user-attachments/assets/4b7a867e-9651-40a4-b352-eb4969fd3424
+
+
+
 **[Watch or download the film](https://github.com/ChanMeng666/film-archlang-in-chatgpt/releases/latest)** · **[Try ArchLang in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6acf8381cca08191bfb3eb7305fb6970)** · **[Credits](CREDITS.md)**
 
 </div>
