@@ -1,0 +1,74 @@
+Read from the live pages on 2026-11-01. Kept apart from src/copy.ts so the gate has something to compare.
+
+== https://chatgpt.com/plugins/plugin_asdk_app_6acf8381cca08191bfb3eb7305fb6970 ==
+By Chan Meng • Floor plans as checked code
+ArchLang Design a two-bedroom flat of about 75 m² as an ArchLang plan and check it against the brief.
+ArchLang Make the bedroom in plan.arch 1 m wider and show me what changed.
+ArchLang Put plan.arch on an A3 sheet and give me a link to download it as a PDF.
+ArchLang: write floor plans as code, compiled and checked by a deterministic compiler. Skills to author, edit, review and export .arch plans through the archlang CLI, and the ArchLang MCP server. The MCP server is hosted at https://mcp.archlang.uk/mcp with no sign-in: it compiles a plan to an SVG drawing and returns the plan's measured facts and lint findings.
+Version 1.50.1
+
+== https://chatgpt.com/ ==
+What’s on the agenda today?
+ChatGPT can make mistakes. Check important info.
+
+== ChatGPT conversation 1 (private) ==
+Worked for 4m 39s
+I’ll create a compact 75 m² two-bedroom layout, compile it, inspect the measured room/door facts, and run ArchLang’s residential checks. I’ll make reasonable assumptions for a typical flat and flag anything the brief doesn’t specify.
+Read ArchLang guidance and compiled the plan
+Refined and optimized the floor plan layout
+Fetched the ArchLang specification via npx
+Arranged rooms and finalized circulation
+Searched 5 websites
+Created and compiled a two-bedroom apartment floor plan
+The first draft now compiles successfully. It measures 76.0 m² across seven rooms, with a window in each bedroom and several shared areas; I’m checking reachability, door placement, circulation and residential lint findings before calling it complete.
+Evaluated apartment plan facts, warnings, and source validity
+The access graph is sound: the entrance reaches every room, both bedrooms have windows, and the bathroom is reached from the hall rather than through a bedroom. The strict check currently flags only missing kitchen and bathroom fixtures, so I’m adding those before the final validation.
+Repaired and linted apartment floor plan layout and furnishings
+Checked the layout
+Compiled and linted two-bedroom apartment floor plan with soundness checks
+Added laundry fixtures
+Finished and validated apartment plan furnishing and layout fixes
+Validated, compiled, and linked the apartment floor plan
+Opened Compile ArchLang → SVG, ASCII, Plan JSON or PNG
+Drag to pan, scroll or +/− to zoom, Fit to reset.
+Completed floor plan
+Strict validation passed
+0 lint warnings
+72.54 m² Gross internal area
+69.54 m² Net usable floor area
+76.0 m² Sum of room centreline areas
+Access and quality checks
+Two bedrooms
+Bedroom windows
+Main entrance
+All rooms reachable
+Intended door connections
+Kitchen and bathroom fixtures
+Furniture and door clearance
+Drawing fits A2 at 1:50
+The final ArchLang validate --strict check returned ok: true, with no diagnostics.
+Worked for 54s
+Modification successful
+I widened Bedroom 1 by 1,000 mm, extending its exterior wall outward. I kept the hallway at its original width of 1,500 mm. Bedroom 2 remains unchanged.
+- room id=bed1 at (6500,0) size 3000x4000 label "Bedroom 1" uses bedroom
++ room id=bed1 at (6500,0) size 4000x4000 label "Bedroom 1" uses bedroom
+I also updated the plan title from 76 m² to 80 m².
+Gross internal area 72.54 m² 76.34 m²
+Net floor area 69.54 m² 73.34 m²
+The current plan does not fit A3 at 1:50. ArchLang reports a W_SCALE_OVERFLOW warning.
+A3 landscape at 1:100 is the appropriate next scale to test. I won't claim the PDF is ready until the export succeeds.
+
+== ChatGPT conversation 2 (private) ==
+Worked for 1m 5s
+A3 sheet verified
+Your two-bedroom flat plan is ready in A3 landscape (420 × 297 mm), scale 1:100.
+ArchLang validation: passed, no diagnostics.
+Sheet fit: confirmed.
+Download as PDF
+Two-bedroom flat — A3 PDF
+Open plan and download PDF
+In the Playground, select PDF beside the Download control. The hosted export produces a page-sized PDF image rather than a vector PDF.
+
+== https://playground.archlang.uk (3D preview tab) ==
+Preview — from the separate archlang-3d package. ArchLang itself draws plans.

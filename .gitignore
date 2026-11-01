@@ -1,0 +1,7 @@
+node_modules/
+out/
+*.log
+audio/__pycache__/
+audio/work/
+.remotion/
+public/soundtrack.wav

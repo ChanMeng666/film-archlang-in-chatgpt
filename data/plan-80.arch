@@ -1,0 +1,48 @@
+plan "Two-bedroom flat — 80 m²" {
+  units mm
+  grid 100
+  north up
+  paper A2 landscape
+  scale 1:50
+  dims auto all
+  schedule rooms
+  legend
+  accTitle "Two-bedroom apartment — approximately 76 square metres"
+  accDescr "A two-bedroom apartment with a central hallway, a living and dining room, separate kitchen, bathroom and laundry."
+  room id=living at (0,0) size 5000x4000 label "Living / Dining" uses living
+  room id=hall at (5000,0) size 1500x8000 label "Hall" uses hall
+  room id=bed1 at (6500,0) size 4000x4000 label "Bedroom 1" uses bedroom
+  room id=bed2 at (6500,4000) size 3000x4000 label "Bedroom 2" uses bedroom
+  room id=kitchen at (0,4000) size 5000x2000 label "Kitchen" uses kitchen
+  room id=laundry at (0,6000) size 2500x2000 label "Laundry" uses utility
+  room id=bath at (2500,6000) size 2500x2000 label "Bathroom" at (3750,6650) uses bath
+  walls from rooms exterior 200 partition 100 { open between living and kitchen width 2500 }
+  door on hall.bottom at center width 900 swing into hall
+  door between hall and living at center width 900 swing into living
+  door between hall and bed1 at center width 820 swing into bed1
+  door between hall and bed2 at center width 820 swing into bed2
+  door between hall and kitchen at center width 850 swing into kitchen
+  door sliding between hall and bath at center width 800
+  door between kitchen and laundry at center width 800 swing into laundry
+  window on living.top width 1800
+  window on bed1.top width 1500
+  window on bed2.right width 1500
+  window on kitchen.left width 1200
+  window on bath.bottom width 800
+  window on laundry.bottom width 900
+  furniture kitchen_sink in kitchen anchor top-left flush size 800x600
+  furniture stove at (3900,5300) size 600x600 rotate 180 in kitchen
+  furniture counter in kitchen anchor bottom flush size 600x600
+  furniture bathtub in bath anchor bottom-left flush size 1700x700
+  furniture wc in bath anchor top-left flush inset 200 size 400x700
+  furniture basin in bath anchor top-right flush size 500x400
+  furniture sofa in living anchor left flush size 900x2000 rotate 270
+  furniture coffee_table in living anchor left flush inset 1300 size 600x1000 rotate 270
+  furniture bed in bed1 anchor bottom-right flush size 2000x1500 rotate 90
+  furniture wardrobe in bed1 anchor top-right flush size 600x1800 rotate 90
+  furniture bed in bed2 anchor top-right flush size 1500x2000 rotate 0
+  furniture wardrobe in bed2 anchor bottom-left flush size 1800x600 rotate 180
+  furniture washer in laundry anchor left flush size 600x650
+  furniture dryer in laundry anchor right flush size 600x650
+  title { project "Two-bedroom flat — 80 m²" }
+}

@@ -1,0 +1,13 @@
+{
+  "source": "https://playground.archlang.uk (3D preview tab)",
+  "plan": "data/plan-a3.arch",
+  "captured": "2026-11-01",
+  "frames": 72,
+  "box": {
+    "x": 766,
+    "y": 266.515625,
+    "width": 719,
+    "height": 404.4375
+  },
+  "strip": "Preview — from the separate archlang-3d package. ArchLang itself draws plans.\n\n7 rooms\nfloor area 73.34 m² (net)\nfloor area 80 m² (to wall centre lines)\n7 doors\n6 windows\nno warnings\nReplay ▸"
+}

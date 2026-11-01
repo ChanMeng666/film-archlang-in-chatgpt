@@ -1,0 +1,461 @@
+{
+  "76": {
+    "totals": {
+      "rooms": 7,
+      "doors": 7,
+      "windows": 6,
+      "floor_area_m2": 76,
+      "gross_internal_area_m2": 72.54,
+      "gross_internal_area_all_levels_m2": 72.54,
+      "net_floor_area_m2": 69.54
+    },
+    "sheet": {
+      "paper": "A2",
+      "orientation": "landscape",
+      "scale_denominator": 50,
+      "scale_auto": false,
+      "fits": true
+    },
+    "bbox": {
+      "w": 9500,
+      "h": 8000
+    },
+    "bbox_outer": {
+      "w": 9700,
+      "h": 8200
+    },
+    "rooms": [
+      {
+        "id": "living",
+        "label": "Living / Dining",
+        "area_m2": 20,
+        "net_area_m2": 18.67,
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "w": 5000,
+          "h": 4000
+        }
+      },
+      {
+        "id": "hall",
+        "label": "Hall",
+        "area_m2": 12,
+        "net_area_m2": 10.92,
+        "bbox": {
+          "x": 5000,
+          "y": 0,
+          "w": 1500,
+          "h": 8000
+        }
+      },
+      {
+        "id": "bed1",
+        "label": "Bedroom 1",
+        "area_m2": 12,
+        "net_area_m2": 10.97,
+        "bbox": {
+          "x": 6500,
+          "y": 0,
+          "w": 3000,
+          "h": 4000
+        }
+      },
+      {
+        "id": "bed2",
+        "label": "Bedroom 2",
+        "area_m2": 12,
+        "net_area_m2": 10.97,
+        "bbox": {
+          "x": 6500,
+          "y": 4000,
+          "w": 3000,
+          "h": 4000
+        }
+      },
+      {
+        "id": "kitchen",
+        "label": "Kitchen",
+        "area_m2": 10,
+        "net_area_m2": 9.22,
+        "bbox": {
+          "x": 0,
+          "y": 4000,
+          "w": 5000,
+          "h": 2000
+        }
+      },
+      {
+        "id": "laundry",
+        "label": "Laundry",
+        "area_m2": 5,
+        "net_area_m2": 4.35,
+        "bbox": {
+          "x": 0,
+          "y": 6000,
+          "w": 2500,
+          "h": 2000
+        }
+      },
+      {
+        "id": "bath",
+        "label": "Bathroom",
+        "area_m2": 5,
+        "net_area_m2": 4.44,
+        "bbox": {
+          "x": 2500,
+          "y": 6000,
+          "w": 2500,
+          "h": 2000
+        }
+      }
+    ],
+    "compileCodes": [],
+    "lintCodes": []
+  },
+  "80": {
+    "totals": {
+      "rooms": 7,
+      "doors": 7,
+      "windows": 6,
+      "floor_area_m2": 80,
+      "gross_internal_area_m2": 76.34,
+      "gross_internal_area_all_levels_m2": 76.34,
+      "net_floor_area_m2": 73.34
+    },
+    "sheet": {
+      "paper": "A2",
+      "orientation": "landscape",
+      "scale_denominator": 50,
+      "scale_auto": false,
+      "fits": true
+    },
+    "bbox": {
+      "w": 10500,
+      "h": 8000
+    },
+    "bbox_outer": {
+      "w": 10700,
+      "h": 8200
+    },
+    "rooms": [
+      {
+        "id": "living",
+        "label": "Living / Dining",
+        "area_m2": 20,
+        "net_area_m2": 18.67,
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "w": 5000,
+          "h": 4000
+        }
+      },
+      {
+        "id": "hall",
+        "label": "Hall",
+        "area_m2": 12,
+        "net_area_m2": 10.92,
+        "bbox": {
+          "x": 5000,
+          "y": 0,
+          "w": 1500,
+          "h": 8000
+        }
+      },
+      {
+        "id": "bed1",
+        "label": "Bedroom 1",
+        "area_m2": 16,
+        "net_area_m2": 14.77,
+        "bbox": {
+          "x": 6500,
+          "y": 0,
+          "w": 4000,
+          "h": 4000
+        }
+      },
+      {
+        "id": "bed2",
+        "label": "Bedroom 2",
+        "area_m2": 12,
+        "net_area_m2": 10.97,
+        "bbox": {
+          "x": 6500,
+          "y": 4000,
+          "w": 3000,
+          "h": 4000
+        }
+      },
+      {
+        "id": "kitchen",
+        "label": "Kitchen",
+        "area_m2": 10,
+        "net_area_m2": 9.22,
+        "bbox": {
+          "x": 0,
+          "y": 4000,
+          "w": 5000,
+          "h": 2000
+        }
+      },
+      {
+        "id": "laundry",
+        "label": "Laundry",
+        "area_m2": 5,
+        "net_area_m2": 4.35,
+        "bbox": {
+          "x": 0,
+          "y": 6000,
+          "w": 2500,
+          "h": 2000
+        }
+      },
+      {
+        "id": "bath",
+        "label": "Bathroom",
+        "area_m2": 5,
+        "net_area_m2": 4.44,
+        "bbox": {
+          "x": 2500,
+          "y": 6000,
+          "w": 2500,
+          "h": 2000
+        }
+      }
+    ],
+    "compileCodes": [],
+    "lintCodes": []
+  },
+  "a3": {
+    "totals": {
+      "rooms": 7,
+      "doors": 7,
+      "windows": 6,
+      "floor_area_m2": 80,
+      "gross_internal_area_m2": 76.34,
+      "gross_internal_area_all_levels_m2": 76.34,
+      "net_floor_area_m2": 73.34
+    },
+    "sheet": {
+      "paper": "A3",
+      "orientation": "landscape",
+      "scale_denominator": 100,
+      "scale_auto": false,
+      "fits": true
+    },
+    "bbox": {
+      "w": 10500,
+      "h": 8000
+    },
+    "bbox_outer": {
+      "w": 10700,
+      "h": 8200
+    },
+    "rooms": [
+      {
+        "id": "living",
+        "label": "Living / Dining",
+        "area_m2": 20,
+        "net_area_m2": 18.67,
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "w": 5000,
+          "h": 4000
+        }
+      },
+      {
+        "id": "hall",
+        "label": "Hall",
+        "area_m2": 12,
+        "net_area_m2": 10.92,
+        "bbox": {
+          "x": 5000,
+          "y": 0,
+          "w": 1500,
+          "h": 8000
+        }
+      },
+      {
+        "id": "bed1",
+        "label": "Bedroom 1",
+        "area_m2": 16,
+        "net_area_m2": 14.77,
+        "bbox": {
+          "x": 6500,
+          "y": 0,
+          "w": 4000,
+          "h": 4000
+        }
+      },
+      {
+        "id": "bed2",
+        "label": "Bedroom 2",
+        "area_m2": 12,
+        "net_area_m2": 10.97,
+        "bbox": {
+          "x": 6500,
+          "y": 4000,
+          "w": 3000,
+          "h": 4000
+        }
+      },
+      {
+        "id": "kitchen",
+        "label": "Kitchen",
+        "area_m2": 10,
+        "net_area_m2": 9.22,
+        "bbox": {
+          "x": 0,
+          "y": 4000,
+          "w": 5000,
+          "h": 2000
+        }
+      },
+      {
+        "id": "laundry",
+        "label": "Laundry",
+        "area_m2": 5,
+        "net_area_m2": 4.35,
+        "bbox": {
+          "x": 0,
+          "y": 6000,
+          "w": 2500,
+          "h": 2000
+        }
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "area_m2": 5,
+        "net_area_m2": 4.44,
+        "bbox": {
+          "x": 2500,
+          "y": 6000,
+          "w": 2500,
+          "h": 2000
+        }
+      }
+    ],
+    "compileCodes": [],
+    "lintCodes": []
+  },
+  "a3-tight": {
+    "totals": {
+      "rooms": 7,
+      "doors": 7,
+      "windows": 6,
+      "floor_area_m2": 80,
+      "gross_internal_area_m2": 76.34,
+      "gross_internal_area_all_levels_m2": 76.34,
+      "net_floor_area_m2": 73.34
+    },
+    "sheet": {
+      "paper": "A3",
+      "orientation": "landscape",
+      "scale_denominator": 50,
+      "scale_auto": false,
+      "fits": false,
+      "drawing_fits": false
+    },
+    "bbox": {
+      "w": 10500,
+      "h": 8000
+    },
+    "bbox_outer": {
+      "w": 10700,
+      "h": 8200
+    },
+    "rooms": [
+      {
+        "id": "living",
+        "label": "Living / Dining",
+        "area_m2": 20,
+        "net_area_m2": 18.67,
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "w": 5000,
+          "h": 4000
+        }
+      },
+      {
+        "id": "hall",
+        "label": "Hall",
+        "area_m2": 12,
+        "net_area_m2": 10.92,
+        "bbox": {
+          "x": 5000,
+          "y": 0,
+          "w": 1500,
+          "h": 8000
+        }
+      },
+      {
+        "id": "bed1",
+        "label": "Bedroom 1",
+        "area_m2": 16,
+        "net_area_m2": 14.77,
+        "bbox": {
+          "x": 6500,
+          "y": 0,
+          "w": 4000,
+          "h": 4000
+        }
+      },
+      {
+        "id": "bed2",
+        "label": "Bedroom 2",
+        "area_m2": 12,
+        "net_area_m2": 10.97,
+        "bbox": {
+          "x": 6500,
+          "y": 4000,
+          "w": 3000,
+          "h": 4000
+        }
+      },
+      {
+        "id": "kitchen",
+        "label": "Kitchen",
+        "area_m2": 10,
+        "net_area_m2": 9.22,
+        "bbox": {
+          "x": 0,
+          "y": 4000,
+          "w": 5000,
+          "h": 2000
+        }
+      },
+      {
+        "id": "laundry",
+        "label": "Laundry",
+        "area_m2": 5,
+        "net_area_m2": 4.35,
+        "bbox": {
+          "x": 0,
+          "y": 6000,
+          "w": 2500,
+          "h": 2000
+        }
+      },
+      {
+        "id": "bath",
+        "label": "Bathroom",
+        "area_m2": 5,
+        "net_area_m2": 4.44,
+        "bbox": {
+          "x": 2500,
+          "y": 6000,
+          "w": 2500,
+          "h": 2000
+        }
+      }
+    ],
+    "compileCodes": [
+      "W_SCALE_OVERFLOW"
+    ],
+    "lintCodes": []
+  }
+}
